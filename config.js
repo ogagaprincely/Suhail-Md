@@ -26,7 +26,7 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://te
 
 global.devs = "923184474176" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2348146248392";
 
 
 
@@ -55,14 +55,14 @@ global.readmessagefrom = process.env.READ_MESSAGE_FROM || "923184474176,923xxxxx
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
 global.read_status = process.env.AUTO_READ_STATUS || "false"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
-global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,923xxxxxxxx";
-global.read_status_from =  process.env.READ_STATUS_FROM  ||  "923184474176,923xxxxxxxx";
+global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,08146248392";
+global.read_status_from =  process.env.READ_STATUS_FROM  ||  "08146248392,923xxxxxxxx";
 
 global.api_smd = "https://api-smd-1.vercel.app"
 global.scan = "https://suhail-md-vtsf.onrender.com/";
 
 
-global.SESSION_ID = process.env.SESSION_ID ||  "" ;
+global.SESSION_ID = process.env.SESSION_ID ||  "SUHAIL_13_17_04_09_ewogICJjcmVkcy5qc29uIjogIntcIm5vaXNlS2V5XCI6e1wicHJpdmF0ZVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiR0ltdEpORVlreGZqMnVDMFRyZnMydVprWEMzZmw4cXVjMHhpTmpJYkhYOD1cIn0sXCJwdWJsaWNcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcIlRSR3NIYkJWa25kRFZWQVl0SVRzQUxBSFRkRXBjR2xXV0Qyb2ZPNlRUeFE9XCJ9fSxcInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyXCI6e1wicHJpdmF0ZVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiK0pONW5MYVlDWVZZL3pOZU5FR210ekJ1K1J4NFYwNWVjNXl0R05uOG5HYz1cIn0sXCJwdWJsaWNcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcIml1T25kNmdFTi8vbFJIaTRQVDQ2T3ZKUGphWnFhN0RQNnRYdER2RzV6eUE9XCJ9fSxcInNpZ25lZElkZW50aXR5S2V5XCI6e1wicHJpdmF0ZVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwia0I1K3REaktoUFczck5BTm14aW1UdTFGeG9KRGtYa3B5MlNwRjZWVnltRT1cIn0sXCJwdWJsaWNcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcIk1aZm9udFJYdm8yVXI3N2dXT2cxaE9pWWFNNkVYaUtFVUo1aStTUHorU289XCJ9fSxcInNpZ25lZFByZUtleVwiOntcImtleVBhaXJcIjp7XCJwcml2YXRlXCI6e1widHlwZVwiOlwiQnVmZmVyXCIsXCJkYXRhXCI6XCJlSXREOFFlRTcvM2EvbzJRWFNqMmxhcGROTEZmY1Y1cGlkY0NKYVl5cFdBPVwifSxcInB1YmxpY1wiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiWVRrd1BsMUU1QUM2Z0UzLzhqMlYvSUZhcW0wWGtpUzhIRWlvYmp5R3ppOD1cIn19LFwic2lnbmF0dXJlXCI6e1widHlwZVwiOlwiQnVmZmVyXCIsXCJkYXRhXCI6XCJCWm1uR0F0YW1HSk5qRjRPTFltOXhDNTRWNHlQRFVsbHlLR0pPN0M4Q3JaSWU4dUFlSEFiZVJKWnVNQlB0eHlvUDhPREFtR1lOVDh4UzZIeVZDU1lodz09XCJ9LFwia2V5SWRcIjoxfSxcInJlZ2lzdHJhdGlvbklkXCI6MjE0LFwiYWR2U2VjcmV0S2V5XCI6XCJqSGtQTDd1dWlMTEdlRlcwKzcyWXQxWE1wb2Z5VkM3NGJRc0U2UGdsTlpZPVwiLFwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzXCI6W3tcImtleVwiOntcInJlbW90ZUppZFwiOlwiMjM0ODE0NjI0ODM5MkBzLndoYXRzYXBwLm5ldFwiLFwiZnJvbU1lXCI6dHJ1ZSxcImlkXCI6XCJCQTYyRjZBRDM5NjA2RTkzMEUxRkM0QTdGRjRCMjVFMFwifSxcIm1lc3NhZ2VUaW1lc3RhbXBcIjoxNzEyNjY4NjIzfSx7XCJrZXlcIjp7XCJyZW1vdGVKaWRcIjpcIjIzNDgxNDYyNDgzOTJAcy53aGF0c2FwcC5uZXRcIixcImZyb21NZVwiOnRydWUsXCJpZFwiOlwiQTczMUQ1N0RGRUVCRDhDRDkxMkY2NDBGNjkyRDZFNDFcIn0sXCJtZXNzYWdlVGltZXN0YW1wXCI6MTcxMjY2ODYyM31dLFwibmV4dFByZUtleUlkXCI6MzEsXCJmaXJzdFVudXBsb2FkZWRQcmVLZXlJZFwiOjMxLFwiYWNjb3VudFN5bmNDb3VudGVyXCI6MSxcImFjY291bnRTZXR0aW5nc1wiOntcInVuYXJjaGl2ZUNoYXRzXCI6ZmFsc2V9LFwiZGV2aWNlSWRcIjpcIlhOZDhpOE5DUnpXMkdodXltSjZIa2dcIixcInBob25lSWRcIjpcIjI4MTI1MDY4LTI0NDMtNGE4NC04ZjY2LTdiMDQ2ZTUyNTY1MlwiLFwiaWRlbnRpdHlJZFwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiYVBld1plVGtsNThBUmRxWjNNTXYyUE1PZkVRPVwifSxcInJlZ2lzdGVyZWRcIjpmYWxzZSxcImJhY2t1cFRva2VuXCI6e1widHlwZVwiOlwiQnVmZmVyXCIsXCJkYXRhXCI6XCIwa0hqcnFlV2wwVmJBVXAyYXNkbHo3eHdia289XCJ9LFwicmVnaXN0cmF0aW9uXCI6e30sXCJhY2NvdW50XCI6e1wiZGV0YWlsc1wiOlwiQ0svTHV1RURFTVQvMUxBR0dBRWdBQ2dBXCIsXCJhY2NvdW50U2lnbmF0dXJlS2V5XCI6XCJHYlh2eDZhYkNmUXFQSDMxSFZZYzVoUC9McmpSU2E4cDc5RUJVbnlEK1QwPVwiLFwiYWNjb3VudFNpZ25hdHVyZVwiOlwiREEyMVEzajgwWHdHbldPdTBJUXliY214d05RRnV3Ti9Qdmx5QU1RaTRZdGlIc3FQb1ZoSjR6eDNveitwZG5CaWRrcm5mVXRqVkFXbVY1UnhEV1paREE9PVwiLFwiZGV2aWNlU2lnbmF0dXJlXCI6XCJOQW1zMjM3SWx0U0JKUkdYTk5yK1ZqOTd6RSs1S1ZDa1pxcGJoc0hHeEk0YTJxUUhONVZMSzNEdGJla1NtS2h2ZU9aRzNBVkxaWHZoWGZHV204eW5oQT09XCJ9LFwibWVcIjp7XCJpZFwiOlwiMjM0ODE0NjI0ODM5MjoyQHMud2hhdHNhcHAubmV0XCIsXCJsaWRcIjpcIjI0NDE0Nzg1MjIwMjEwMzoyQGxpZFwiLFwibmFtZVwiOlwiUHJpbmNlcGF3bnkg8J+ZguKAjeKGlVwifSxcInNpZ25hbElkZW50aXRpZXNcIjpbe1wiaWRlbnRpZmllclwiOntcIm5hbWVcIjpcIjIzNDgxNDYyNDgzOTI6MkBzLndoYXRzYXBwLm5ldFwiLFwiZGV2aWNlSWRcIjowfSxcImlkZW50aWZpZXJLZXlcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcIkJSbTE3OGVtbXduMEtqeDk5UjFXSE9ZVC95NjQwVW12S2UvUkFWSjhnL2s5XCJ9fV0sXCJwbGF0Zm9ybVwiOlwiYW5kcm9pZFwiLFwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wXCI6MTcxMjY2ODYxNyxcIm15QXBwU3RhdGVLZXlJZFwiOlwiQUFBQUFGTFJcIn0iLAogICJhcHAtc3RhdGUtc3luYy1rZXktQUFBQUFGTFIuanNvbiI6ICJ7XCJrZXlEYXRhXCI6XCJ0Z3lycmtadnRjN1RBMjlvcnNDaHRqeE5qVERqRXFVZiszT2RrWjZzYkxVPVwiLFwiZmluZ2VycHJpbnRcIjp7XCJyYXdJZFwiOjEwMDk2OTAwMzEsXCJjdXJyZW50SW5kZXhcIjoxLFwiZGV2aWNlSW5kZXhlc1wiOlswLDFdfSxcInRpbWVzdGFtcFwiOlwiMTcxMjY2ODYxMTM0N1wifSIKfQ==" ;
 
 
 module.exports = {
@@ -74,10 +74,10 @@ module.exports = {
   VERSION : process.env.VERSION || "1.3.1",
   caption : process.env.CAPTION || "©sᴜʜᴀɪʟ²²¹-ᴍᴅ" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
-  author : process.env.PACK_AUTHER|| "Suhail-MD",
+  author : process.env.PACK_AUTHER|| "թгเภςєթคฬภץ",
   packname: process.env.PACK_NAME || "♥️",
-  botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It'x Suhail",
+  botname : process.env.BOT_NAME  || "pawny-bot",
+  ownername:process.env.OWNER_NAME|| "Princepawny",
 
 
   errorChat : process.env.ERROR_CHAT || "",
@@ -138,5 +138,5 @@ fs.watchFile(file, () => { fs.unwatchFile(file);console.log(`Update'${__filename
   //MsgsInLog: process.env.MSGS_IN_LOG|| "false", // "true"  to see messages , "log" to open logs , "false" to hide logs messages
   //readcmds:process.env.READ_COMMANDS|| "false", 
   //alwaysonline:process.env.WAPRESENCE|| "unavailable", // 'unavailable' | 'online' | 'composing' | 'recording' | 'paused'
-  //read_status: process.env.AUTO_READ_STATUS || "false",
+  //read_status: process.env.AUTO_READ_STATUS || "true",
   //save_status: process.env.AUTO_SAVE_STATUS || "false",
